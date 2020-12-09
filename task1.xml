@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='task3.xsl'?>
+<address-book>
+<address name="surya">
+<city>vijayawada</city>
+<state>Andhra Pradesh</state>
+<country>India</country>
+</address>
+<address name="karthik">
+<city>guntur</city>
+<state>Andhra Pradesh</state>
+<country>India</country>
+</address>
+<address name="aslam">
+<city>nellore</city>
+<state>Andhra Pradesh</state>
+<country>India</country>
+</address>
+<address name="harika">
+<city>chirala</city>
+<state>Andhra Pradesh</state>
+<country>India</country>
+</address>
+<address name="ashesh">
+<city>srikakulam</city>
+<state>Andhra Pradesh</state>
+<country>India</country>
+</address>
+</address-book>
