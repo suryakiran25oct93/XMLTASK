@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+<book category="1">
+<title lang="en">Data Structures</title>
+<author>KRISHNA</author>
+<year>2005</year>
+<price>300</price>
+</book>
+<book category="2">
+<title lang="en">JAVA</title>
+<author>SURYA</author>
+<year>2005</year>
+<price>250</price>
+</book>
+<book category="3">
+<title lang="en-us">Python</title>
+<author>James</author>
+<year>2003</year>
+<price>350</price>
+</book>
+<book category="4">
+<title lang="en-us">HTML</title>
+<author>Erik</author>
+<year>2003</year>
+<price>390</price>
+</book>
+</bookstore>

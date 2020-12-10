@@ -1,0 +1,29 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="student-info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="redgno"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:byte" name="avg"/>
+              <xs:element type="xs:string" name="dob"/>
+              <xs:element type="xs:string" name="time"/>
+              <xs:element name="mobile">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:long" name="no"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="distinction"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
